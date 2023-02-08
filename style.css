@@ -1,0 +1,109 @@
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 400;
+  background-color: #FFD972;
+  background-image: url("images/bananas.jpg");
+  background-size: 500px;
+  color: #041C32;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1;
+  color: #041C32;
+}
+
+h2, h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1;
+  color: #041C32;
+}
+
+a{
+  color: #ABC270;
+  text-decoration: none;
+  background-color: #FFD972;
+  transition: 1s;
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px;
+  /* border: 2px solid #A0D5D3; */
+  border-radius: 5px;
+  box-shadow: 3px 3px 16px rgba(0,0,0, 0.1);
+}
+
+a:hover{
+  color: #FF884B;
+  text-decoration: underline wavy;
+  transform: scale(1.2);
+}
+
+ul{
+  padding: 0;
+  margin: 10px
+}
+
+li {
+  display: inline;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.fa-brands {
+  padding: 10px;
+  font-size: 25px;
+  text-decoration: none
+}
+
+.card{
+  background-color: #FCB97D;
+  border-radius: 5%;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.syne_font{
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+#circle-pic{
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+/* #B4656F; */
