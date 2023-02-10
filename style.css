@@ -44,6 +44,7 @@ a:hover{
   color: #FF884B;
   text-decoration: underline wavy;
   transform: scale(1.2);
+  background-color: #A1D6D4;
 }
 
 ul{
@@ -83,6 +84,51 @@ li {
   border-radius: 50%;
 }
 
+.my_name{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px
+}
+
+.waving:before {
+  content: attr(data-hover);
+  }
+
+.waving:hover {
+  animation-name: wave-animation;
+  animation-duration: 3.0s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  }
+
+@keyframes wave-animation {
+  0% {
+  transform: rotate( 0.0deg)
+  }
+  10% {
+  transform: rotate(14.0deg)
+  }
+  20% {
+  transform: rotate(-8.0deg)
+  }
+  30% {
+  transform: rotate(14.0deg)
+  }
+  40% {
+  transform: rotate(-4.0deg)
+  }
+  50% {
+  transform: rotate(10.0deg)
+  }
+  60% {
+  transform: rotate( 0.0deg)
+  }
+  100% {
+  transform: rotate( 0.0deg)
+  }
+  }
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -103,7 +149,3 @@ li {
     width: 300px;
   }
 }
-
-
-
-/* #B4656F; */
